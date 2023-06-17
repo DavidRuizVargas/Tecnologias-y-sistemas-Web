@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<body>
+    <form action="" method="get" name="Prueba">
+        <label for="name">Nombre</label>
+        <input 
+        type="text" 
+        name="name" 
+        id="name" 
+        value="David"
+        placeholder="Escriba el nombre"
+        maxlength="15"
+        minlength="5"
+       readonly
+        />
+        
+        <label for="Apellido">Apellido</label>
+        <input 
+        type="text" 
+        name="Apellido" 
+        id="Apellido" 
+        placeholder="Escriba el nombre"
+        maxlength="15"
+        minlength="5"
+        disabled
+        />
+            
+        <label for="password">contraseña</label>
+        <input type="password" id="contrase" />
+
+        <label for="numero">Edad</label>
+        <input type="number" id="numero" min="1" max="20" />
+
+        <label for="correo">correo</label>
+        <input type="email" id="correo" />
+
+        <label for="color">color</label>
+        <input type="color" id="color" />
+
+        <label for="archivo">seleccione un archivo</label>
+        <input type="file" id="archivo" />
+        <br /> 
+        <label for="archivo">seleccione su genero</label>
+        <label>Masculino</label><input type="radio" id="genero" value="1" />
+        <br /> 
+        <input type="submit" value="Aceptar">   
+        <br>
+        <label>femenino</label><input type="radio" id="genero" value="2" />
+        <br/>
+        <label>Neutral</label><input type="radio" id="genero" value="3" />
+        <input type="submit" value="Aceptar">  
+
+        <label for="colores">seleccione el color</label>
+        <label>Rojo</label><input type="checkbox" name="genero" value="Rojo" checked />
+        <label>Negro</label><input type="checkbox"  name="genero" value="Negro" checked />
+        <label>Verde</label><input type="checkbox" name="genero" value="Verde" checked />
+        <br>
+        <input type="submit" value="Aceptar">  
+        <br/>
+
+        <label for="Fecha">Fecha</label>
+        <input type="date" id="Fecha"> 
+        
+        <label for="mes">Mes</label>
+        <input type="month" value="mes"> 
+
+
+        <label for="semana">semana</label>
+        <input type="week" value="semana"> 
+
+        <label for="Url">Url</label>
+        <input type="url" id="Url"> 
+
+        <label for="Direccion">Direccion</label>
+        <textarea name="Direccion" id="Direccion" cols="30" rows="10" ></textarea>
+
+
+        <label for="Direccion">Marca vehiculo</label>
+        <select id="Marca vehiculo" form="Prueba">
+        <option value="1">Honda</option>
+        <option value="2" selected> Toyota</option>
+        <option value="3">Nissan</option>
+    </form>    
+</body>
+</html>
