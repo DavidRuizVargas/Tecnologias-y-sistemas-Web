@@ -1,0 +1,46 @@
+.div1,.div2,.div3,.div4{
+
+    width: 200px;
+    height: 200px; 
+    border: 2px solid black;
+
+    
+   
+}
+
+
+.div1{
+
+
+    background-color: rebeccapurple;
+    z-index: 2;
+}
+.div2{
+
+
+    background-color: rgb(65, 79, 139);
+    position: relative;
+    top: 50px;
+    left: 500px;
+    
+    z-index: 1;
+}
+.div3{
+
+
+    background-color: rgb(50, 180, 104);
+
+    position:absolute;
+    top: 50px;
+    left: 500px;
+    
+}
+.div4{
+
+
+    background-color: rebeccapurple;
+    position: fixed;
+
+
+    top: 100px;
+}
