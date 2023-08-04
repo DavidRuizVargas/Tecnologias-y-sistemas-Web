@@ -1,0 +1,47 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+
+  
+  .container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left-container {
+    width: 40%;
+    
+    
+    
+  }
+
+  .container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left-container {
+    width: 40%;
+    
+    
+  }
+
+  .right-container {
+    width: 40%;
+    height: 80%;
+    
+  }body, html {
+    height: 100%;
+    margin: 0;
+  }
+
+  .right-container {
+    width: 40%;
+    height: 80%;
+    
+  }

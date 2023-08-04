@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.Casa{
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: 150px;
+    border: solid 3px #000;
+    padding: 5px;
+    
+    background-color: #9b9a9a;
+    margin-bottom: 100px;
+}
+.Casa h1{
+    position: absolute;
+    top: 4px;
+    left: 7px;
+    font-size: 30px;
+}
+.techo{
+    width: 270px;
+    height: 30px;
+    border: solid 3px #000;
+    padding: 5px;
+    position: absolute;
+    top: -48px; 
+    left: 50%; 
+    transform: translateX(-50%);
+    background-color: #f70808;
+    
+    bottom: 162px; 
+}
+
+.ventana1{
+    width: 30px;
+    height: 30px;
+    border: solid 3px #000000;
+    padding: 5px;
+    background-color: #1c05f0;
+    position: absolute;
+    top: 75px;
+    left: 25px;
+}
+.ventana2{
+    width: 30px;
+    height: 30px;
+    border: solid 3px #000000;
+    padding: 5px;
+    background-color: #1b03f0;
+    position: absolute;
+    top: 105px;
+    left: 155px;
+}
+
+.puerta{
+    width: 50px;
+    height: 50px;
+    border: solid 3px #000;
+    padding: 5px;
+    background-color: #631515;
+    position: absolute;
+    top: 140px;
+    left: 75px;
+}
